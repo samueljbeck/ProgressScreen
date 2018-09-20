@@ -2,6 +2,7 @@
 <resources>
     <color name="primary_blue">#319acf</color>
     <color name="background_white">#ffffff</color>
+    <color name="gray_151">#979797</color>
 </resources>
 
 

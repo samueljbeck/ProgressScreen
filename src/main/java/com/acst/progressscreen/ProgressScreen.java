@@ -10,19 +10,17 @@ import com.github.rahatarmanahmed.cpv.CircularProgressView;
 
 /**
  * Created by samuelbeck on 11/9/15.
- * <p>
+ *
  * add
- * <include layout="@layout/progress_bar_bg" />
+ *  include layout="@layout/progress_bar_bg"
  * to the bottom of your layout
- * <p>
+ *
  * add  to Activity
- * <p>
+ *
  * declaration
- * <p>
+ *
  * ProgressScreen progressBar;
- * <p>
- * <p>
- * <p>
+ *
  * super.onCreate(icicle);
  * this.setContentView(R.layout.login);
  * thisActivity = this;
@@ -31,7 +29,7 @@ import com.github.rahatarmanahmed.cpv.CircularProgressView;
 public class ProgressScreen {
     private Activity thisActivity;
     private CircularProgressView progressBar;
-    public RelativeLayout progressHolder;
+    private RelativeLayout progressHolder;
 
     public ProgressScreen(Activity _thisActivity) {
         thisActivity = _thisActivity;
