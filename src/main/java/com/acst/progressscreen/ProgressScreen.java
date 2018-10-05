@@ -93,4 +93,8 @@ public class ProgressScreen {
         thisActivity.runOnUiThread(() -> Toast.makeText(thisActivity.getBaseContext(), msg, Toast.LENGTH_SHORT).show());
     }
 
+    public RelativeLayout getProgressHolder() {
+        return progressHolder;
+    }
+
 }
